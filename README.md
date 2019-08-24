@@ -1,11 +1,12 @@
 # Ursulita Project
 **Tested on**: PHP  7.0.27
+
 **Tags**:PHP, backdoor, RAT, API
 
 Thanks to [@Yulefier](https://github.com/Yulefier "@Yulefier") for helping.
 # Description
 Ursulita project is a web injectable backdoor for windows.
-
+Ursulita Project is for educational purposes only.
 # Getting started
 
 First the project is just an idea about hunting a web developers using a simple trap, You have **backdoor.php** file, you should inject this file inside a demo project or any project that you might know your victim is interested in, 
