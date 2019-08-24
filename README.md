@@ -1,6 +1,5 @@
 # Ursulita Project
 **Tested on**: PHP  7.0.27
-
 **Tags**:PHP, backdoor, RAT, API
 
 Thanks to [@Yulefier](https://github.com/Yulefier "@Yulefier") for helping.
@@ -46,7 +45,13 @@ Also , you should put the **API.php** link inside **/classes/SETTING.php** file:
 This function is reading the **$code** array elements then it print them as your custom order in **$index** array .
 
 The encoder.php tool this stays for you only.
-some other ideas might be usefull for you, it's prefered to encrypt the **backdoor.php** and **SETTING.php** contains before injecting them in the victim project, encrypt them with a private key and hide the key in the victem project too , if you want to know more about the **AES** encrypting [Click Here](https://aesencryption.net/) .
+some other ideas might be usefull for you:
+
+ - it's prefered to encrypt the **backdoor.php** and **SETTING.php**   
+   contains before injecting them in the victim project.
+ - Encrypt them    with a private key and hide the key in the victem
+   project too , if    you want to know more about the **AES**
+   encrypting [Click    Here](https://aesencryption.net/) .
 
 # The project diagram
 
